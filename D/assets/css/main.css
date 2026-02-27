@@ -1535,7 +1535,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #201f5e;
+		color: #999;
 	}
 
 	form :-moz-placeholder {
@@ -1566,7 +1566,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 0.5em 0 0 0;
-			color: #aaa;
+			color: #150e52;
 		}
 
 		@media screen and (max-width: 736px) {

@@ -1,0 +1,107 @@
+/* Global */
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Accent Color */
+.accent {
+  color: #1e90ff;
+}
+
+.accent-btn {
+  background: #1e90ff;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.accent-btn:hover {
+  background: #4aa8ff;
+}
+
+/* Navigation */
+#nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 180px;
+  height: 100%;
+  background: #111;
+  padding-top: 2em;
+}
+
+#nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+#nav ul li {
+  margin: 1em 0;
+}
+
+#nav a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  color: #4aa8ff;
+}
+
+/* Panels */
+.panel {
+  margin-left: 180px;
+  min-height: 100vh;
+  padding: 4em;
+  background: #1b1b1b;
+}
+
+.inner {
+  max-width: 800px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Portrait */
+.portrait {
+  width: 260px;
+  border-radius: 8px;
+  margin-bottom: 1em;
+}
+
+/* Video Gallery */
+.video-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  padding: 1em 0;
+}
+
+.video-scroll img {
+  width: 200px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s ease, border 0.2s ease;
+  border: 2px solid transparent;
+}
+
+.video-scroll img:hover {
+  transform: scale(1.05);
+  border-color: #1e90ff;
+}
+
+/* Footer Logo */
+.footer-logo {
+  width: 120px;
+  margin-top: 2em;
+}

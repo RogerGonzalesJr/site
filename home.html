@@ -1,60 +1,105 @@
+<!DOCTYPE HTML>
 <html>
-<header id="header">
-  		<title>Roger Gonzales, Jr.</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-</header>
+  <head>
+    <title>Roger Gonzales, Jr.</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+
   <body class="is-preload">
-  <center><br><br><br><br><br><br><br>
-    <img src="images/Roger.png" height="350" />
 
-    <h2>Marketing Assistant & Content Creator</h2>
+    <!-- Wrapper -->
+    <div id="wrapper">
 
-    <p>San Antonio, TX</p>
+      <!-- Main -->
+      <div id="main">
 
-    <a href="videos.html">
-      <input type="button" value="View My Work" />
-    </a>
-  </center>
-</header>
+        <!-- Home -->
+        <article id="home" class="panel intro">
+          <header>
+            <h1 class="accent">Roger Gonzales, Jr.</h1>
+            <p>Marketing Assistant & Content Creator</p>
+          </header>
+          <a href="#videos" class="jumplink pic">
+            <img src="images/Roger.png" alt="Portrait of Roger Gonzales Jr." />
+          </a>
+        </article>
 
-<section id="about" style="text-align:center; margin-top:3em;">
-  <h2>About Me</h2>
-  <p>
-    I’m a marketing assistant with experience in content creation, social media strategy,
-    and video production. I enjoy helping brands tell their story through engaging visuals
-    and creative campaigns.
-  </p>
-</section>
+        <!-- About -->
+        <article id="about" class="panel">
+          <header><h2 class="accent">About Me</h2></header>
+          <p>
+            I’m a marketing assistant with experience in content creation, social media strategy,
+            and video production. I enjoy helping brands tell their story through engaging visuals.
+          </p>
+          <h3>Skills</h3>
+          <ul>
+            <li>Social Media Strategy</li>
+            <li>Content Creation</li>
+            <li>Video Editing</li>
+            <li>Brand Development</li>
+            <li>Marketing Analytics</li>
+          </ul>
+        </article>
 
-<section id="featured" style="text-align:center; margin-top:3em;">
-  <h2>Featured Video</h2>
-  <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/IeYNWpgQMRA"
-    allowfullscreen></iframe>
+        <!-- Videos -->
+    <article id="videos" class="panel">
+      <div class="inner">
+        <h2 class="accent">Video Portfolio</h2>
 
-  <br><br>
-  <a href="videos.html">
-    <input type="button" value="View All Videos" />
-  </a>
-</section>
-<script src="assets/js/main.js"></script>
-</body>
-			<footer id="footer">
-				<ul>
-					<img src="images/rgjr.png" height="150" width="137" /></l
-				</ul>
+        <!-- Main Player -->
+        <iframe id="mainPlayer" width="100%" height="450" src="https://www.youtube.com/embed/_qGntqwvHT8" allowfullscreen></iframe>
 
-				<ul class="copyright">
-					<li>&copy; 2026 - Roger</li>
-				</ul>
-			</footer>
-
-
+        <!-- Scrollable Thumbnails -->
 
 
 
+    <!----------------------------------------- vvvvvv  Scrollable Thumbnails  vvvvvv ---------------------------------------------------->
+	      <div class="video-scroll">
+		      <img class="thumb" data-video="_qGntqwvHT8" src="https://img.youtube.com/vi/_qGntqwvHT8/hqdefault.jpg"><!-- KUIW Radio -->
+  		    <img class="thumb" data-video="IeYNWpgQMRA" src="https://img.youtube.com/vi/IeYNWpgQMRA/hqdefault.jpg"><!-- Light the way -->
 
-  
+
+
+		
+		    <img class="thumb" data-video="IeYNWpgQMRA" src="https://img.youtube.com/vi/IeYNWpgQMRA/hqdefault.jpg">
+<!--                                   ^^^^^^^^^^^                                  ^^^^^^^^^^^                   -->
+<!--                          Get this value from the YouTube video URL and replace these two values              -->
+<!--       for example:  https://www.youtube.com/watch?v=RWBdWzAjxPA          would be: RWBdWzAjxPA               -->
+		
+      <!------------------------------------------ ^^^^^^^ Add more video thumbnails here ^^^^^^^ ------------------------------------------>
+        </div>
+      </div>
+    </article>
+
+
+        <!-- Projects -->
+        <article id="projects" class="panel">
+          <header><h2 class="accent">Projects</h2></header>
+          <p>More portfolio items coming soon.</p>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact" class="panel">
+          <header><h2 class="accent">Contact</h2></header>
+          <p>Email: example@gmail.com</p>
+          <img src="images/rgjr.png" class="footer-logo" alt="RGJR logo" />
+        </article>
+
+      </div>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <a href="#home" class="icon solid fa-home"><span>Home</span></a>
+        <a href="#about" class="icon solid fa-user"><span>About</span></a>
+        <a href="#videos" class="icon solid fa-video"><span>Videos</span></a>
+        <a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
+        <a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
+      </nav>
+
+    </div>
+
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -40,7 +40,17 @@
 
 
 
+<script>
+  const mainPlayer = document.getElementById("mainPlayer");
+  const thumbs = document.querySelectorAll(".thumb");
 
+  thumbs.forEach(t => {
+    t.addEventListener("click", () => {
+      const id = t.getAttribute("data-video");
+      mainPlayer.src = `https://www.youtube.com/embed/${id}`;
+    });
+  });
+</script>
 
 		
 

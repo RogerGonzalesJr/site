@@ -1360,7 +1360,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-weight: 300;
-		color: #222553;
+		color: #1621c0;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -1535,7 +1535,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #999;
+		color: #201f5e;
 	}
 
 	form :-moz-placeholder {
